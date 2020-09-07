@@ -80,8 +80,8 @@ static NSString *bgCellId = @"FUBgCollectionView";
     if (_selectedIndex == indexPath.row) {
         
         cell.imageView.layer.borderWidth = 2.0 ;
-        cell.imageView.layer.borderColor = [UIColor colorWithHexColorString:@"5EC7FE"].CGColor;
-        cell.titleLabel.textColor = [UIColor colorWithHexColorString:@"5EC7FE"];
+        cell.imageView.layer.borderColor = [UIColor fu_colorWithHexColorString:@"5EC7FE"].CGColor;
+        cell.titleLabel.textColor = [UIColor fu_colorWithHexColorString:@"5EC7FE"];
     }
     
     return cell ;

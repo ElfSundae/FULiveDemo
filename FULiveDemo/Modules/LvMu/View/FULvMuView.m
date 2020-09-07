@@ -382,7 +382,7 @@ static NSString *colorCellID = @"FULvMuColorCellID";
 
                cell.imageView.image = [UIImage imageNamed:imageName];
                cell.titleLabel.text = NSLocalizedString(modle.mTitle,nil);
-               cell.titleLabel.textColor = _selectedIndex == indexPath.row ? [UIColor colorWithHexColorString:@"5EC7FE"] : [UIColor whiteColor];
+               cell.titleLabel.textColor = _selectedIndex == indexPath.row ? [UIColor fu_colorWithHexColorString:@"5EC7FE"] : [UIColor whiteColor];
            }
            return cell ;
     }else{
